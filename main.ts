@@ -1,6 +1,9 @@
 // BreakoutSniper — Winner Takes All entry.
 //
-// Two legs, one book: a launch sniper (create slot, at most 2 outsider
+// Revision note (main session): the breakout leg only fires on a tight
+// confirmation — runup >= +80% with exactly 3 buyers, age 1-10 slots.
+// Looser breakouts add small wins but destroy the net, so the filter
+// stays narrow even though it passes fewer coins.
 // buyers, stake 0.2 SOL, stop -2%, take-profit +25%) plus a
 // confirmed-breakout leg (coins aged 1-10 slots, runup >= +80% with
 // exactly 3 buyers, stake 0.3 SOL). Max hold 20 slots, exit if the
